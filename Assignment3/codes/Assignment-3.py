@@ -4,7 +4,7 @@ from scipy.stats import binom
 #number of simulations 
 simlen = 10000000
 
-#number of articles produced in single simulation(sample space)
+
 n = 10
 
 #probabilty of a defective article occuring
@@ -13,7 +13,7 @@ p = 0.6
 #binomial distrubution
 data_binom = binom.rvs(n,p,size = simlen)
 
-#calculating proabilty for 9 defective articles to be produced
+#calculating proabilty for 6 free throws
 
 count = 0
 
